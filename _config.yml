@@ -8,7 +8,7 @@ name:  'Ramon Fraga Pereira'
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: /ramonpereira.github.io
+path: /
 url:  'https://ramonpereira.github.io'
 
 
@@ -21,7 +21,7 @@ sass:
   sass_dir: css
   style:    expanded
 
-permalink: /:title.html
+permalink: /:title
 
 exclude:
 - README.md
