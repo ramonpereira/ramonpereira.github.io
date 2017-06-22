@@ -1,0 +1,183 @@
+% -----------------------------
+% ----------- 2017 ------------
+% -----------------------------
+
+@InProceedings{PereiraOrenMeneguzzi2017,
+  author =    {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
+  title =     {Landmark-Based Heuristics for Goal Recognition},
+  booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence},
+  pages     = {3622--3628},
+  year =      {2017},
+  abstract =  {Automated planning can be used to efficiently recognize goals and plans from partial or full observed action sequences. In this paper, we propose goal recognition heuristics that rely on information from planning landmarks -- facts or actions that must occur if a plan is to achieve a goal when starting from some initial state. We develop two such heuristics: the first estimates goal completion by considering the ratio between achieved and extracted landmarks of a candidate goal, while the second takes into account how unique each landmark is among landmarks for all candidate goals. We empirically evaluate these heuristics over both standard goal/plan recognition problems, and a set of very large problems. We show that our heuristics can recognize goals more accurately, and run orders of magnitude faster, than the current state-of-the-art.}
+}
+
+@InProceedings{PereiraOrenMeneguzzi2017,
+  author =    {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
+  title =     {Monitoring Plan Optimality using Landmarks and Domain-Independent Heuristics},
+  booktitle = {The AAAI 2017 Workshop on Plan, Activity, and Intent Recognition (PAIR)},
+  year =      {2017}
+}
+
+@InProceedings{Granada2017,
+  author =    {Roger Granada and Ramon Fraga Pereira and Juarez Monteiro and Rodrigo Barros and Duncan Ruiz and Felipe Meneguzzi},
+  title =     {Hybrid Activity and Plan Recognition for Video Streams},
+  booktitle = {The AAAI 2017 Workshop on Plan, Activity, and Intent Recognition (PAIR)},
+  year =      {2017}
+}
+
+@INPROCEEDINGS{Pereira2017,
+  author = {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
+  title = {Detecting Commitment Abandonment by Monitoring Sub-Optimal Steps during Plan Execution},
+  booktitle = {Proceedings of the Sixteenth International Conference on Autonomous
+	Agents and Multiagent Systems (AAMAS)},
+  year = {2017},
+  pages = {(to appear)},
+abstract = {Assessing whether an agent is actually executing steps towards a goal, or has abandoned it, is important when multiple agents are trying to achieve joint goals, or when agents commit to achieving goals for each other. Making such inference for a single goal by observing only plan traces is not a trivial task because agents often deviate from the optimal plans for various reasons, including the pursuit of multiple goals or the inability to act optimally. In this paper, we develop an approach based on planning techniques that addresses the problem of detecting sub-optimal steps and of determining whether an agent will honour a commitment. Specifically, we use domain-independent heuristics, landmarks (properties or actions that cannot be avoided to achieve a goal from an initial state), and fact partitions to make such inferences. We empirically show, for a number of representative domains, that our approach infers sub-optimal steps with very high accuracy and detects commitment abandonment in nearly all cases.},
+  file = {:http\://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf:PDF},
+  url = {http://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf},
+  owner = {meneguzzi},
+  timestamp = {2017.03.05}
+}
+
+@inproceedings{pereira2017plan,
+  title={A Plan Optimality Monitoring Approach to Detect Commitment Abandonment},
+  author={Pereira, Ramon Fraga and Oren, Nir and Meneguzzi, Felipe},
+  booktitle={The AAMAS 2017 Workshop on Coordination, Organization, Institutions and Norms in Agent Systems (COIN@AAMAS)},
+  year={2017}
+}
+
+@Article{CardosoPereiraKrzischEtAl2017,
+  author =   {Rafael C. Cardoso and Ramon Fraga Pereira and Guilherme Krzisch and MaurÃ­cio C. Magnaguagno and TÃºlio BasÃ©gio and Felipe Meneguzzi},
+  title =    {Team PUCRS: a Decentralised Multi-Agent Solution for the Agents in the City Scenario},
+  journal =  {Int. Journal of Agent-Oriented Software Engineering},
+  year =     {2017},
+  pages =    {(to appear)},
+  abstract = {The 2016 edition of the Multi-Agent Programming Contest used the Agents in the City as its new scenario, which consisted on the execution of various logistics tasks within a realistic city topology using a number of different vehicle types. The complexity of the scenario and variety of tasks posed a challenging problem suitable for a decentralised multi-agent solution. In this paper we describe the winning solution for the contest, providing insights into how we designed our solution and organised our team, as well as some discussion on a few of our matches.},
+  url =      {https://www.meneguzzi.eu/felipe/pubs/ijaose-mapc-2017.pdf}
+}
+
+
+% -----------------------------
+% ----------- 2016 ------------
+% -----------------------------
+
+@INPROCEEDINGS{Pereira2016,
+  author = {Ramon Fraga Pereira and Felipe Meneguzzi},
+  title = {Landmark-based Plan Recognition},
+  booktitle = {Proceedings of the Twenty Second European Conference on Artificial Intelligence (ECAI)},
+  year = {2016},
+  doi = {10.3233/978-1-61499-672-9-1706},
+  pages = {1706 - 1707},
+}
+
+@article{DBLP:journals/corr/PereiraM16,
+  author    = {Ramon Fraga Pereira and
+               Felipe Meneguzzi},
+  title     = {Landmark-Based Plan Recognition},
+  journal   = {CoRR},
+  volume    = {abs/1604.01277},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1604.01277},
+  timestamp = {Mon, 02 May 2016 18:22:52 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/PereiraM16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@paper{Magnaguagno2016,
+	author = {Mauricio Magnaguagno and Ramon Pereira and Felipe Meneguzzi},
+	title = {DoveTail - An Abstraction for Classical Planning Using a Visual Metaphor},
+	conference = {The 29th Florida Artificial Intelligence Research Society Conference (FLAIRS)},
+	year = {2016},
+	keywords = {Planning; Visualization; Metaphor},
+	abstract = {While domain descriptions are often shared and manipulated through diagrams, most complex domains are still described using text-based languages. Code becomes an intermediary between the real-world and an abstract idea, and the programmer is merely a converter of diagrams into code. For automated planning this is no different. The state transition function is described in terms of a textual representation of actions and, although simple actions require little effort to define by the user, the learning process is often slow. New users have no metaphor to help them to visualize the domain description that they are working on and little information about why a planner fails due to formalization errors. In this paper, we propose a visual abstraction for both the planning domain actions and the planning process itself, to facilitate the design of classical planning domains. Using this abstraction, we expect to improve the learning curve for defining and subsequently diagnosing problems with new planning domains.},
+	url = {http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS16/paper/view/12966}
+}
+
+@inproceedings{farias2016failure,
+  title={Failure Prediction based on Monitoring Sequences of Actions and Action Duration},
+  author={Farias, Giovani and Pereira, Ramon Fraga and Hilgert, Lucas and Meneguzzi, Felipe and Vieira, Renata and Bordini, Rafael Heitor},
+  booktitle={The 10th Software Agents, Environments and Applications School (WESAAC)},
+  year={2016},
+  url={http://intelligentagents.github.io/wesaac-2016/assets/anais-wessac2016.pdf}
+}
+
+@article{pereira2016detecting,
+  title={Detecting Task-Based fMRI Compliance using Plan Abandonment Techniques},
+  author={Pereira, Ramon Fraga and Heinsfeld, Anibal S{\'o}lon and Franco, Alexandre Rosa and Buchweitz, Augusto and Meneguzzi, Felipe},
+  journal={GigaScience},
+  volume={5},
+  number={1},
+  pages={21--22},
+  year={2016},
+  publisher={Oxford University Press}
+}
+
+@Article{CameronCraddock2016,
+author="Cameron Craddock, R.
+and S. Margulies, Daniel
+and Bellec, Pierre
+and Nolan Nichols, B.
+and Alcauter, Sarael
+and A. Barrios, Fernando
+and Burnod, Yves
+and J. Cannistraci, Christopher
+and Cohen-Adad, Julien
+and De Leener, Benjamin
+and Dery, Sebastien
+and Downar, Jonathan
+and Dunlop, Katharine
+and R. Franco, Alexandre
+and Seligman Froehlich, Caroline
+and J. Gerber, Andrew
+and S. Ghosh, Satrajit
+and J. Grabowski, Thomas
+and Hill, Sean
+and S{\'o}lon Heinsfeld, Anibal
+and Matthew Hutchison, R.
+and Kundu, Prantik
+and R. Laird, Angela
+and Liew, Sook-Lei
+and J. Lurie, Daniel
+and G. McLaren, Donald
+and Meneguzzi, Felipe
+and Mennes, Maarten
+and Mesmoudi, Salma
+and O'Connor, David
+and H. Pasaye, Erick
+and Peltier, Scott
+and Poline, Jean-Baptiste
+and Prasad, Gautam
+and Fraga Pereira, Ramon
+and Quirion, Pierre-Olivier
+and Rokem, Ariel
+and S. Saad, Ziad
+and Shi, Yonggang
+and C. Strother, Stephen
+and Toro, Roberto
+and Q. Uddin, Lucina
+and D. Van Horn, John
+and W. Van Meter, John
+and C. Welsh, Robert
+and Xu, Ting",
+title="Brainhack: a collaborative workshop for the open neuroscience community",
+journal="GigaScience",
+year="2016",
+volume="5",
+number="1",
+pages="1--8",
+abstract="Brainhack events offer a novel workshop format with participant-generated content that caters to the rapidly growing open neuroscience community. Including components from hackathons and unconferences, as well as parallel educational sessions, Brainhack fosters novel collaborations around the interests of its attendees. Here we provide an overview of its structure, past events, and example projects. Additionally, we outline current innovations such as regional events and post-conference publications. Through introducing Brainhack to the wider neuroscience community, we hope to provide a unique conference format that promotes the features of collaborative, open science.",
+issn="2047-217X",
+doi="10.1186/s13742-016-0121-x",
+url="http://dx.doi.org/10.1186/s13742-016-0121-x"
+}
+
+% -----------------------------
+% ----------- 2015 ------------
+% -----------------------------
+
+@article{pereira2015locus,
+  title={LOCUS: An Environment Description Language for JASON},
+  author={Pereira, Ramon Fraga and Magnaguagno, Maur{\i}cio Cec{\i}lio and Heinsfeld, Anibal S{\'o}lon and Meneguzzi, Felipe},
+  journal={The 9th Software Agents, Environments and Applications School (WESAAC)},
+  year={2015}
+}
