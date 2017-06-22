@@ -3,8 +3,6 @@ layout: default
 title: "Publications"
 ---
 
-<br>
-
 ## Conference and Journal Papers
 
 <script src="https://bibbase.org/show?bib=https://ramonpereira.github.io/publications/ramon-publications.bib&jsonp=1"></script>
