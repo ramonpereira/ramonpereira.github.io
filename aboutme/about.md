@@ -11,7 +11,7 @@ title: "About Me"
 
 #### 2016 - present
 
-- <sub><sup>Small text</sup></sub>PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
+- <sub>PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);</sub>
 	-- Thesis Title: TBD
 
 #### 2014 - 2016
