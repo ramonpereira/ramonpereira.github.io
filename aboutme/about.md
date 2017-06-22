@@ -11,18 +11,18 @@ title: "About Me"
 
 #### 2016 - present
 
-- PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
-* Thesis Title: TBD
+- <sub><sup>Small text</sup></sub>PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
+	-- Thesis Title: TBD
 
 #### 2014 - 2016
 
 - MSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
-* Dissertation Title:
+	-- Dissertation Title:
 
 #### 2009 - 2013
 
 - BSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
-* Diploma Thesis Title:
+	-- Diploma Thesis Title:
 
 ### Experience
 
