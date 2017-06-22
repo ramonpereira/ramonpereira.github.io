@@ -7,9 +7,9 @@ title: "About Me"
 
 ## About Me
 
-Name: Ramon Fraga Pereira
-Hometown: Porto Alegre, RS
-Country: Brazil
+- Name: Ramon Fraga Pereira
+- Hometown: Porto Alegre, RS
+- Country: Brazil
 
 ### Education
 
