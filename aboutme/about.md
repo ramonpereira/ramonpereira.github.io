@@ -17,26 +17,29 @@ Country: Brazil
 
 - PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
 	* Thesis Title: *TBD*
+	* Advisor: [Prof. Dr. Felipe Meneguzzi](http://www.meneguzzi.eu/felipe/)
 
 #### 2014 - 2016
 
 - MSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
 	* Dissertation Title: *Landmark-Based Approaches For Plan Recognition Tasks*
+	* Advisor: [Prof. Dr. Felipe Meneguzzi](http://www.meneguzzi.eu/felipe/)
 
 #### 2009 - 2013
 
 - BSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
 	* Diploma Thesis Title: *Implementação de Otimizações de Performance no GraphPlan*
+	* Advisor: [Prof. Dr. Felipe Meneguzzi](http://www.meneguzzi.eu/felipe/)
 
 ### Experience
 
 #### 2016 - present
 - [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brazil](http://www.pucrs.br). 
-	* PhD Student;
+	* PhD Student in Computer Science and Researcher;
 
 #### 2014 - 2016
 - [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brazil](http://www.pucrs.br). 
-	* MSc Student;
+	* MSc Student in Computer Science and Researcher;
 
 #### 2008 - 2014
 - [Thema Informática Ltda., THEMA, Brazil](http://www.thema.inf.br). 
