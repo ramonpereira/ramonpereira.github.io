@@ -11,20 +11,36 @@ title: "About Me"
 
 #### 2016 - present
 
-- <sub>PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);</sub>
-	-- Thesis Title: TBD
+- PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
+	* Thesis Title: *TBD*
 
 #### 2014 - 2016
 
 - MSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
-	-- Dissertation Title:
+	* Dissertation Title: *Landmark-Based Approaches For Plan Recognition Tasks*
 
 #### 2009 - 2013
 
 - BSc in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
-	-- Diploma Thesis Title:
+	* Diploma Thesis Title: *Implementação de Otimizações de Performance no GraphPlan*
 
 ### Experience
+
+#### 2016 - present
+- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brasil.](www.pucrs.br). 
+	* PhD Student;
+
+#### 2014 - 2016
+- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brasil.](www.pucrs.br). 
+	* MSc Student;
+
+#### 2008 - 2014
+- [Thema Informática Ltda., THEMA, Brasil.](www.thema.inf.br). 
+	* Software Developer;
+
+#### 2005 - 2008
+- [Rede & Imagem Tecnologias Ltda., R&I, Brasil](www.redeimagem.com.br). 
+	* Network Administrator;
 
 ### Awards
 
