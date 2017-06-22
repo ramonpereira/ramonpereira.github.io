@@ -11,7 +11,7 @@ title: "Publications"
 
 <script src="https://bibbase.org/show?bib=https://ramonpereira.github.io/publications/ramon-publications.bib&jsonp=1"></script>
 
-### Diploma Thesis, Dissertations, Thesis
+### BSc Diploma Thesis, MSc Dissertation, and PhD Thesis
 
 <script src="https://bibbase.org/show?bib=https://ramonpereira.github.io/publications/ramon-others.bib&jsonp=1"></script>
 
