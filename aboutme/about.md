@@ -9,6 +9,12 @@ title: "About Me"
 
 ### Education
 
+Name: Ramon Fraga Pereira
+
+Hometown: Porto Alegre, RS
+
+Country: Brazil
+
 #### 2016 - present
 
 - PhD in Computer Science at Pontifical Catholic University of Rio Grande do Sul (PUCRS);
@@ -27,19 +33,19 @@ title: "About Me"
 ### Experience
 
 #### 2016 - present
-- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brasil.](www.pucrs.br). 
+- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brazil](http://www.pucrs.br). 
 	* PhD Student;
 
 #### 2014 - 2016
-- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brasil.](www.pucrs.br). 
+- [Pontifical Catholic University of Rio Grande do Sul, PUCRS, Brazil](http://www.pucrs.br). 
 	* MSc Student;
 
 #### 2008 - 2014
-- [Thema Informática Ltda., THEMA, Brasil.](www.thema.inf.br). 
+- [Thema Informática Ltda., THEMA, Brazil](http://www.thema.inf.br). 
 	* Software Developer;
 
 #### 2005 - 2008
-- [Rede & Imagem Tecnologias Ltda., R&I, Brasil](www.redeimagem.com.br). 
+- [Rede & Imagem Tecnologias Ltda., R&I, Brazil](http://www.redeimagem.com.br). 
 	* Network Administrator;
 
 ### Awards
