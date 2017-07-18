@@ -2,7 +2,7 @@
   author =    {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
   title =     {Landmark-Based Heuristics for Goal Recognition},
   booktitle = {Proceedings of the Thirty-First Association for the Advancement of Artificial Intelligence (AAAI)},
-  pages     = {3622--3628},
+  pages     = {3622 - 3628},
   year =      {2017},
   abstract =  {Automated planning can be used to efficiently recognize goals and plans from partial or full observed action sequences. In this paper, we propose goal recognition heuristics that rely on information from planning landmarks - facts or actions that must occur if a plan is to achieve a goal when starting from some initial state. We develop two such heuristics: the first estimates goal completion by considering the ratio between achieved and extracted landmarks of a candidate goal, while the second takes into account how unique each landmark is among landmarks for all candidate goals. We empirically evaluate these heuristics over both standard goal/plan recognition problems, and a set of very large problems. We show that our heuristics can recognize goals more accurately, and run orders of magnitude faster, than the current state-of-the-art.},
   url = {files/aaai17-goalrecognition_heuristics.pdf}
@@ -14,7 +14,7 @@
   booktitle = {Proceedings of the Sixteenth International Conference on Autonomous
 	Agents and Multiagent Systems (AAMAS)},
   year = {2017},
-  pages = {1685--1687},
+  pages = {1685 - 1687},
 abstract = {Assessing whether an agent is actually executing steps towards a goal, or has abandoned it, is important when multiple agents are trying to achieve joint goals, or when agents commit to achieving goals for each other. Making such inference for a single goal by observing only plan traces is not a trivial task because agents often deviate from the optimal plans for various reasons, including the pursuit of multiple goals or the inability to act optimally. In this paper, we develop an approach based on planning techniques that addresses the problem of detecting sub-optimal steps and of determining whether an agent will honour a commitment. Specifically, we use domain-independent heuristics, landmarks (properties or actions that cannot be avoided to achieve a goal from an initial state), and fact partitions to make such inferences. We empirically show, for a number of representative domains, that our approach infers sub-optimal steps with very high accuracy and detects commitment abandonment in nearly all cases.},
   url = {files/aamas17-commitment_abandonment.pdf},
 }
@@ -33,8 +33,7 @@ abstract = {Assessing whether an agent is actually executing steps towards a goa
   title =     {Hybrid Activity and Plan Recognition for Video Streams},
   booktitle = {The AAAI 2017 Workshop on Plan, Activity, and Intent Recognition (PAIR@AAAI)},
   year =      {2017},
-  abstract = {
-Computer-based human activity recognition of daily living has recently attracted much interest due to its applicability to ambient assisted living. Such applications require the automatic recognition of high-level activities composed of multiple actions performed by human beings in an environment. In this work, we address the problem of activity recognition in an indoor environment, focusing on a kitchen scenario. Unlike existing approaches that identify single actions from video sequences, we also identify the goal towards which the subject of the video is pursuing. Our hybrid approach combines a deep learning architecture to analyze raw video data and identify individual actions which are then processed by a goal recognition algorithm that uses a plan library describing possible overarching activities to identify the ultimate goal of the subject in the video. Experiments show that our approach achieves the state-of-the-art for identifying cooking activities in a kitchen scenario.},
+  abstract = {Computer-based human activity recognition of daily living has recently attracted much interest due to its applicability to ambient assisted living. Such applications require the automatic recognition of high-level activities composed of multiple actions performed by human beings in an environment. In this work, we address the problem of activity recognition in an indoor environment, focusing on a kitchen scenario. Unlike existing approaches that identify single actions from video sequences, we also identify the goal towards which the subject of the video is pursuing. Our hybrid approach combines a deep learning architecture to analyze raw video data and identify individual actions which are then processed by a goal recognition algorithm that uses a plan library describing possible overarching activities to identify the ultimate goal of the subject in the video. Experiments show that our approach achieves the state-of-the-art for identifying cooking activities in a kitchen scenario.},
   url = {files/pair17-hybrid-recognizer.pdf}
 }
 
@@ -84,29 +83,28 @@ Computer-based human activity recognition of daily living has recently attracted
   abstract = {Anticipating failures in agent plan execution is important to enable an agent to develop strategies to avoid or circumvent such failures, allowing the agent to achieve its goal. Plan recognition can be used to infer which plans are being executed from observations of sequences of activities being performed by an agent. In this work, we use this symbolic plan recognition algorithm to find out which plan the agent is performing and develop a failure prediction system, based on plan library information and in a simplified calendar that manages the goals the agent has to achieve. This failure predictor is able to monitor the sequence of agent actions and detects if an action is taking too long or does not match the plan that the agent was expected to perform. We showcase this approach successfully in a health-care prototype system.}
 }
 
-@INPROCEEDINGS{Pereira2016,
+@inproceedings{ECAI16_PereiraMeneguzzi,
   author = {Ramon Fraga Pereira and Felipe Meneguzzi},
   title = {Landmark-Based Plan Recognition},
   booktitle = {Proceedings of the Twenty Second European Conference on Artificial Intelligence (ECAI)},
   year = {2016},
   doi = {10.3233/978-1-61499-672-9-1706},
   pages = {1706 - 1707},
+  url = {files/ecai16-planrecognition.pdf}
 }
 
-@article{DBLP:journals/corr/PereiraM16,
+@article{ARXIV2016_PereiraMeneguzzi,
   author    = {Ramon Fraga Pereira and
                Felipe Meneguzzi},
   title     = {Landmark-Based Plan Recognition},
-  journal   = {CoRR},
+  journal   = {Computing Research Repository (CoRR) - arXiv Preprint},
   volume    = {abs/1604.01277},
   year      = {2016},
   url       = {http://arxiv.org/abs/1604.01277},
-  timestamp = {Mon, 02 May 2016 18:22:52 +0200},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/PereiraM16},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/PereiraM16}
 }
 
-@paper{Magnaguagno2016,
+@paper{FLAIRS2016_MagnaguagnoPereiraMeneguzzi,
 	author = {Mauricio Cecilio Magnaguagno and Ramon Fraga Pereira and Felipe Meneguzzi},
 	title = {DoveTail - An Abstraction for Classical Planning Using a Visual Metaphor},
 	conference = {The 29th Florida Artificial Intelligence Research Society Conference (FLAIRS)},
@@ -124,7 +122,7 @@ Computer-based human activity recognition of daily living has recently attracted
   url={http://intelligentagents.github.io/wesaac-2016/assets/anais-wessac2016.pdf}
 }
 
-@article{pereira2016detecting,
+@article{BRAINHACK16_PereiraEtAl,
   title={Detecting Task-Based fMRI Compliance using Plan Abandonment Techniques},
   author={Pereira, Ramon Fraga and Heinsfeld, Anibal S{\'o}lon and Franco, Alexandre Rosa and Buchweitz, Augusto and Meneguzzi, Felipe},
   journal={GigaScience},
@@ -132,10 +130,12 @@ Computer-based human activity recognition of daily living has recently attracted
   number={1},
   pages={21--22},
   year={2016},
-  publisher={Oxford University Press}
+  publisher={Oxford University Press},
+  doi = {http://dx.doi.org/10.5524/100234},
+  url = {http://gigadb.org/dataset/100234}
 }
 
-@Article{CameronCraddock2016,
+@Article{BRAINHACK16_CraddockEtAl,
 author="Cameron Craddock, R.
 and S. Margulies, Daniel
 and Bellec, Pierre
@@ -194,9 +194,11 @@ doi="10.1186/s13742-016-0121-x",
 url="http://dx.doi.org/10.1186/s13742-016-0121-x"
 }
 
-@article{pereira2015locus,
+@article{WESAAC2015_PereiraEtAl,
   title={LOCUS: An Environment Description Language for JASON},
   author={Pereira, Ramon Fraga and Magnaguagno, Maur{\i}cio Cec{\i}lio and Heinsfeld, Anibal S{\'o}lon and Meneguzzi, Felipe},
   journal={The 9th Software Agents, Environments and Applications School (WESAAC)},
-  year={2015}
+  year={2015},
+  abstract = {Jason is an AgentSpeak interpreter for multi-agent system development, in which agents are described in the AgentSpeak language. Therefore, we only have to describe the agent behavior, but the environment does not follow this style, it requires a Java description of how the actions and perceptions operate. This choice of implementation guarantees that even complex environments can be created for JASON, but it requires knowledge about both Java and JASON’s Application Programming Interface (API). In this paper we aim to fill the gap between the languages with an AgentSpeak-like description of the environment. To overcome this gap we propose LOCUS, a source-to-source compiler which generates a Java description of the environment for JASON, providing the user with an easier starting point to create complex environments with a consistent description for both the agents and the environment. The output of LOCUS can be further modified if required, not limiting the user to the features already provided by LOCUS.},
+  url = {files/wesaac-locus-2015.pdf}
 }
