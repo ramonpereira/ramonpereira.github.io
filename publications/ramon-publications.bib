@@ -1,11 +1,23 @@
 @inproceedings{AAAI2017_PereiraOrenMeneguzzi,
   author =    {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
   title =     {Landmark-Based Heuristics for Goal Recognition},
-  booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence},
+  booktitle = {Proceedings of the Thirty-First Association for the Advancement of Artificial Intelligence (AAAI)},
   pages     = {3622--3628},
   year =      {2017},
   abstract =  {Automated planning can be used to efficiently recognize goals and plans from partial or full observed action sequences. In this paper, we propose goal recognition heuristics that rely on information from planning landmarks - facts or actions that must occur if a plan is to achieve a goal when starting from some initial state. We develop two such heuristics: the first estimates goal completion by considering the ratio between achieved and extracted landmarks of a candidate goal, while the second takes into account how unique each landmark is among landmarks for all candidate goals. We empirically evaluate these heuristics over both standard goal/plan recognition problems, and a set of very large problems. We show that our heuristics can recognize goals more accurately, and run orders of magnitude faster, than the current state-of-the-art.},
   url = {files/aaai17-goalrecognition_heuristics.pdf}
+}
+
+@INPROCEEDINGS{Pereira2017,
+  author = {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
+  title = {Detecting Commitment Abandonment by Monitoring Sub-Optimal Steps during Plan Execution},
+  booktitle = {Proceedings of the Sixteenth International Conference on Autonomous
+	Agents and Multiagent Systems (AAMAS)},
+  year = {2017},
+  pages = {1685--1687},
+abstract = {Assessing whether an agent is actually executing steps towards a goal, or has abandoned it, is important when multiple agents are trying to achieve joint goals, or when agents commit to achieving goals for each other. Making such inference for a single goal by observing only plan traces is not a trivial task because agents often deviate from the optimal plans for various reasons, including the pursuit of multiple goals or the inability to act optimally. In this paper, we develop an approach based on planning techniques that addresses the problem of detecting sub-optimal steps and of determining whether an agent will honour a commitment. Specifically, we use domain-independent heuristics, landmarks (properties or actions that cannot be avoided to achieve a goal from an initial state), and fact partitions to make such inferences. We empirically show, for a number of representative domains, that our approach infers sub-optimal steps with very high accuracy and detects commitment abandonment in nearly all cases.},
+  file = {:http\://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf:PDF},
+  url = {http://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf},
 }
 
 @InProceedings{PereiraOrenMeneguzzi2017,
@@ -20,20 +32,6 @@
   title =     {Hybrid Activity and Plan Recognition for Video Streams},
   booktitle = {The AAAI 2017 Workshop on Plan, Activity, and Intent Recognition (PAIR)},
   year =      {2017}
-}
-
-@INPROCEEDINGS{Pereira2017,
-  author = {Ramon Fraga Pereira and Nir Oren and Felipe Meneguzzi},
-  title = {Detecting Commitment Abandonment by Monitoring Sub-Optimal Steps during Plan Execution},
-  booktitle = {Proceedings of the Sixteenth International Conference on Autonomous
-	Agents and Multiagent Systems (AAMAS)},
-  year = {2017},
-  pages = {(to appear)},
-abstract = {Assessing whether an agent is actually executing steps towards a goal, or has abandoned it, is important when multiple agents are trying to achieve joint goals, or when agents commit to achieving goals for each other. Making such inference for a single goal by observing only plan traces is not a trivial task because agents often deviate from the optimal plans for various reasons, including the pursuit of multiple goals or the inability to act optimally. In this paper, we develop an approach based on planning techniques that addresses the problem of detecting sub-optimal steps and of determining whether an agent will honour a commitment. Specifically, we use domain-independent heuristics, landmarks (properties or actions that cannot be avoided to achieve a goal from an initial state), and fact partitions to make such inferences. We empirically show, for a number of representative domains, that our approach infers sub-optimal steps with very high accuracy and detects commitment abandonment in nearly all cases.},
-  file = {:http\://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf:PDF},
-  url = {http://www.meneguzzi.eu/felipe/pubs/aamas-optimality-commitment-2017.pdf},
-  owner = {meneguzzi},
-  timestamp = {2017.03.05}
 }
 
 @inproceedings{pereira2017plan,
