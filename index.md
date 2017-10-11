@@ -11,6 +11,8 @@ My research is in the field of Artificial Intelligence, particularly in Goal and
 
 ## Stuff I worked on:
 
+- [Landmark-Based Approaches (Filter and Heuristics) For Goal Recognition](https://github.com/ramonpereira/Planning-GoalRecognition);
+- [Datasets for Goal and Plan Recognition using Classical Planning Domains](https://github.com/pucrs-automated-planning/Goal_Plan-Recognition-Dataset);
 - A [GraphPlan](https://github.com/pucrs-automated-planning/javagp) implementation in Java;
 - [Web-Planner](http://web-planner.herokuapp.com/) a Planing tool running on [Heroku](https://www.heroku.com);
 - [Locus](https://github.com/Maumagnaguagno/Locus) an environment description language for [Jason](http://jason.sourceforge.net/we);
