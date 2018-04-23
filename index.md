@@ -9,8 +9,11 @@ Hello, my name is **Ramon Fraga Pereira** and I am a Ph.D. student in Computer S
 
 My research is in the field of Artificial Intelligence, particularly in Goal and Plan Recognition using Automated Planning techniques for both Single-Agent and Multi-Agent Systems.
 
+You can find my publications [here](https://ramonpereira.github.io/publications/publications.html).
+
 ## Stuff I worked on:
 
+- [Goal Recognition in Latent Space](https://github.com/pucrs-automated-planning/latplan);
 - [Landmark-Based Approaches (Filter and Heuristics) For Goal Recognition](https://github.com/ramonpereira/Planning-GoalRecognition);
 - [Datasets for Goal and Plan Recognition using Classical Planning Domains](https://github.com/pucrs-automated-planning/Goal_Plan-Recognition-Dataset);
 - A [GraphPlan](https://github.com/pucrs-automated-planning/javagp) implementation in Java;
