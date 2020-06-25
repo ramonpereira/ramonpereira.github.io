@@ -119,6 +119,10 @@ blockquote footer {
   ;
 }
 
+.row{
+	width: 1000px;
+}
+
 /* Links */
 #main-container a {
   color: #1585cf;
