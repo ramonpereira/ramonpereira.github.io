@@ -336,6 +336,10 @@ h3:after {
   z-index: -1;
 }
 
+img {
+  width: 70%;
+}
+
 /* Format the footer ---------------------------------------------------------- */
 footer {
   padding-bottom: 2rem;
