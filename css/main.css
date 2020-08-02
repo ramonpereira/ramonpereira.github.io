@@ -437,8 +437,8 @@ dd {
     max-width: 730px;
 	margin-right: 0px;
 	margin-left: 0px;
-	padding-right: 60px;
-	padding-left: 60px;	
+	padding-right: 5%;
+	padding-left: 5%;
   }
 }
 
@@ -450,8 +450,8 @@ dd {
     max-width: 900px;
 	margin-right: 0px;
 	margin-left: 0px;	
-	padding-right: 60px;
-	padding-left: 60px;
+	padding-right: 5%;
+	padding-left: 5%;
   }
 }
 
