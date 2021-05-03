@@ -6,7 +6,12 @@ import subprocess
 def main() :
 	benchmarks = sys.argv[1]
 	heuristic = sys.argv[2]
-	heuristics = sys.argv[3]
+
+	heuristics = ''
+	heuristics_file = sys.argv[3]
+	hs_file = open(heuristics_file)
+	for line in hs_file:
+		heuristics = line
 
 	strategies_file = sys.argv[4]
 	strategies = []
