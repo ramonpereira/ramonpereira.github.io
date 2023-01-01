@@ -229,7 +229,7 @@ nav {
 }
 
 .navbar-inverse {
-  background: #373737;
+  background: #373737 !important;
 }
 
 .navbar-brand {
