@@ -120,7 +120,7 @@ blockquote footer {
 }
 
 .row{
-	width: 1000px;
+	width: 1150px;
 }
 
 /* Links */
@@ -443,7 +443,7 @@ dd {
   }
 }
 
-/* Responsive: Portrait tablets and up */
+/* Responsive: Portrait lists and up */
 @media only screen and (min-width: 768px) {
 
   /* Remove the padding we set earlier */
