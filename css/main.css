@@ -505,7 +505,7 @@ dd {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #1585cf;
+  background-color: #373737 !important;
   color: white;
   padding: 12px 6px 12px 6px;
   border-radius: 4px 0 0 4px;
